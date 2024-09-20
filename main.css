@@ -15,7 +15,7 @@ footer {
 
 ul {
     list-style: none;
-    background: grey;
+    background: rgb(172, 157, 120);
 }
 
 ul li {
@@ -25,12 +25,33 @@ ul li {
 
 ul li a {
     display: block;
-    padding: 20px 25px;
-    color: antiquewhite;
+    padding: 10px 15px;
+    color: rgb(119, 93, 56);
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
-    
+    font-size: 16px;
 }
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 60%;
+    background: rgb(198, 156, 92);
+    position: absolute;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: bisque;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+
+
 
 
