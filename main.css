@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(243, 226, 201);
+    background-color: rgb(230, 182, 119);
 }
 footer {
     background-color: gray;
@@ -23,7 +23,7 @@ ul li {
 
 ul li a {
     display: block;
-    padding: 10px 15px;
+    padding: 10px 10px;
     color: rgb(119, 93, 56);
     text-decoration: none;
     text-align: center;
