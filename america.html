@@ -12,7 +12,6 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            position: relative;
         }
         .signup-button {
             position: fixed;
@@ -23,18 +22,18 @@
             border: none;
             padding: 10px 20px;
             border-radius: 4px;
-            cursor: pointer;
-            text-decoration: none; /* Remove underline for link */
+            text-decoration: none;
             font-size: 16px;
         }
         .signup-button:hover {
-            background-color: blanchedalmond; /* Darker shade on hover */
+            background-color: blanchedalmond; 
+
         }
-    </style>
+   </style>
 </head>
 <body>
     <header>
-        <h1>America</h1>
+        <h1>foods and their culture</h1>
         <a href="signup.html" class="signup-button">Sign Up</a>
         <nav>
             <ul>
@@ -57,16 +56,20 @@
         </nav>
     </header>
     <main>
-        <section id="images">    
-        <div>
+        <section>
             <h2>American BBQ</h2>
-            <img src="images/america.jpeg" alt="American bbq" height="300" >
-            <p>we all know it and we all love it</p>
-        </div>
+            <div class="feature-card">
+                <img src="images/america.jpeg" alt="good" height="300">
+                <p>We all know it and we all love it but where did it originate from. It is believed that barbecue was first originated by a groupe Indigenous people who lived on the caribbean, much like how we cook barbecue, they cooked meat over an open fire. spanish explorers later adopted the technique and brought it back to Europe where it gained popularity very quickly later spreading to the 13 colonies.</p>
+            </div><hr>
+            <div class="feature-card" id="special-feature">
+                <img src="images/america2.jpeg" alt="american bbq" height="300">
+                <p>Today American BBQ is loved by most for its flavor and wide variety. From celebrations to getting together to watch the game, American BBQ can be enjoyed all throughout the year.</p>
+            </div><hr>
         </section>
     </main>
     <footer>
-       <p></p>
+       <p>Sign up for anything food related</p>
     </footer>
 </body>
 </html>
