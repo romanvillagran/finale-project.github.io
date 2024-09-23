@@ -50,7 +50,7 @@ ul li:hover ul.dropdown {
 }
 
  .feature-card {
-    border: 5px solid #7f8c8d; 
+    border: 5px solid #b6661d; 
     padding: 20px; 
     margin: 20px; 
     background-color: #f6dfca; 
@@ -64,7 +64,7 @@ ul li:hover ul.dropdown {
 
 .feature-card p {
     margin-bottom: 10px; 
-    color: #7f8c8d;
+    color: #000000;
 }
 
 #special-feature {
