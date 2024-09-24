@@ -6,37 +6,96 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="favicon.jpg">
+    <style>
+        *{
+        padding: 9px;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    head{
+        padding: 1px;
+    }
+    
+    .container {
+        max-width: 850px;
+        margin: 0 auto;
+        display: flex;
+        column-gap: 200;
+    }
+    
+    .card {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+    }
+    
+    .img{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+    }
+    </style>
 </head>
 <body>
     <header>
         <h1>Foods and their culture</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>
-                    <a href="#">Locations</a>
-                    <ul class="dropdown">
-                        <li><a href="america.html">America</a></li>
-                        <li><a href="mexico.html">mexico</a></li>
-                        <li><a href="italian.html">Italy</a></li>
-                        <li><a href="germany.html">Germany</a></li>
-                        <li><a href="france.html">France</a></li>
-                        <li><a href="china.html">China</a></li>
-                        <li><a href="japan.html">Japan</a></li>
-                        <li><a href="vietnam.html">Vietnam</a></li>
-                        <li><a href="indian.html">India</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
     </header>
     <main>
-        <section>
-            <div class="feature-card" id="special-feature">
-
+        <div class="container">
+            <div class="card">
+                <img class="img" src="images/american stock.jpg" alt="america">
+                <h4 class="heading">America</h4>
+                <button class="btn" href="america.html">View more</button>
             </div>
-        </section>
-
+            <div class="card">
+                <img class="img" src="images/.jpg" alt="">
+                <h4 class="heading">Mexico</h4>
+                <button class="btn">view more</button>
+            </div>
+            <div class="card">
+                <img class="img" src="images/helldivers.jpg" alt="">
+                <h4 class="heading">Germany</h4>
+                <button class="btn">view more</button>
+            </div>
+        </div><br>
+            <div class="container">
+                <div class="card">
+                    <img class="img" src="images/helldivers.jpg" alt="">
+                    <h4 class="heading">France</h4>
+                    <button class="btn">view more</button>
+                </div>
+                <div class="card">
+                    <img class="img" src="images/helldivers.jpg" alt="">
+                    <h4 class="heading">Italy</h4>
+                    <button class="btn">view more</button>
+                </div>
+                <div class="card">
+                    <img class="img" src="images/suishi.jpg" alt="suishi">
+                    <h4 class="heading">Japan</h4>
+                    <button class="btn">view more</button>
+                </div>
+            </div><br>
+            <div class="container">
+                <div class="card">
+                    <img class="img" src="image/.jpg" alt="">
+                    <h4 class="heading">China</h4>
+                    <p></p>
+                    <button class="btn">view more</button>
+                </div>
+                <div class="card">
+                    <img class="img" src="image/.jpg" alt="">
+                    <h4 class="heading">Vietnam</h4>
+                    <p></p>
+                    <button class="btn">view more</button>
+                </div>
+                <div class="card">
+                    <img class="img" src="image/.jpg" alt="">
+                    <h4 class="heading">Indian</h4>
+                    <p></p>
+                    <button class="btn"> view more</button>
+                </div>
+            </div>
         <form action="/submit" method="post" id="signup">
             <p>Sign up to our newsletter for more food related content</p>
 
