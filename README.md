@@ -14,6 +14,10 @@ https://cookindocs.com/german-sausage/
 https://www.gamberorossointernational.com/news/food-news/
 food-on-movie-moments-the-true-story-of-french-ratatouille/
 
+https://www.diffenfood.com/history-of-italian-pizza/
+
+https://www.youtube.com/@SamONellaAcademy
+
 
 
 
