@@ -18,6 +18,8 @@ https://www.diffenfood.com/history-of-italian-pizza/
 
 https://www.youtube.com/@SamONellaAcademy
 
+https://www.epicdumpling.com/post/what-is-the-history-of-chinese-dumpling
+
 
 
 
