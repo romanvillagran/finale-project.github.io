@@ -20,6 +20,9 @@ https://www.youtube.com/@SamONellaAcademy
 
 https://www.epicdumpling.com/post/what-is-the-history-of-chinese-dumpling
 
+https://www.chowhound.com/1658716/history-origin-vietnamese-pho/
+
+https://www.indiatimes.com/lifestyle/the-origin-history-of-the-humble-indian-curry-375711.html
 
 
 
