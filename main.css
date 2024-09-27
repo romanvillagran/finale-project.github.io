@@ -1,7 +1,7 @@
 body {
     background-color: #f0caa7;
 }
-
+/*this to*/
 ul {
     list-style: none;
     background: rgb(172, 157, 120);
@@ -40,6 +40,8 @@ ul li:hover ul.dropdown {
     display: block;
 }
 
+/*this is for the dropdown menu. I used a youtube video*/
+
  .feature-card {
     border: 5px solid #b6661d; 
     padding: 20px; 
@@ -65,8 +67,6 @@ p a {
 form {
     background-color: #ebb483;
 }
-.special-feature {
-    width: 150px;
-}
+
 
 
